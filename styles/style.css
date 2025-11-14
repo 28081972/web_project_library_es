@@ -57,6 +57,7 @@
 }
 
 .header__description {
+  margin-top: 0;
   font-size: 20px;
   line-height: 30px;
   max-width: 515px;
@@ -87,7 +88,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .staff__title {
@@ -287,4 +288,129 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.step {
+  flex-basis: 220px;
+  padding: 0 40px 0 0;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+.footer__columns {
+  display: flex;
+  margin: 0;
+  padding: 0 0 300px 0;
+  position: relative;
+}
+
+.footer__column {
+  display: flex;
+  margin: 0;
+}
+
+.footer__column_content_hours {
+  position: absolute;
+  right: 300px;
+  top: 60px;
+}
+
+.footer__column_content_social {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+}
+
+.footer__logo {
+  max-width: 58px;
+  max-height: 80px;
+  position: absolute;
+  left: 80px;
+  top: 60px;
+  padding: 0 0 100px 0;
+}
+
+.footer__column-heading {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.footer__list {
+  list-style-type: none;
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0;
+}
+
+.footer__list-item {
+  margin-top: 0;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+
+.footer__social-icon {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 16px 0;
+}
+
+.footer__copyright {
+  color: #ffffff;
+  position: absolute;
+  left: 80px;
+  bottom: 60px;
+  margin: 0;
+  font-size: 16px;
 }
