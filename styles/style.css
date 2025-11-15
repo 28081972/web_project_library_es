@@ -386,11 +386,11 @@
   color: #ffffff;
   font-size: 16px;
   padding: 0 0 16px 0;
-  height: 20px;
 }
 
-.footer__list-item {
+.footer__list-item p {
   margin: 0;
+  padding: 0 0 16px 0;
 }
 
 .footer__column-link {
