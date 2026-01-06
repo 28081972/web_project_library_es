@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -397,7 +397,6 @@
   display: flex;
   gap: 10px;
   justify-content: center;
-
   color: white;
   text-decoration: none;
   margin: 0;
